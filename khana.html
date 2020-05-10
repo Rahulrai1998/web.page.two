@@ -3,7 +3,70 @@
 	<title>Login Here
 	</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+			body{
+	background-color:yellow;/*inline CSS overrides the external CSS*/
+}
+.RED{
+	COLOR:RED;
+}
+#D{COLOR:RED}
+body{
+	margin:0px;
+	
+}
+.width_100{width:100%;}
+.float_left{float:left;}
+#header{
+	/*Float defines the starting side of division*/
+	/*right way to code is to think according the CSS first i.e create different Classes first and use it accordingly in html files
+    float:left;*/
+	width:100%;
+	height:5px;
+	background-color:yellow;
+	padding: 15px 0px 0px 15px;
+	color:white;
+}
+#left{
+	float:left;
+	width:50%;
+	height:400px;
+	background-color:yellow;
+
+}
+#right{
+	float:left;
+	width:50%;
+	height:400px;
+	background-color:red;
+
+}
+#footer{
+	float:left;
+	width:100%;
+	height:200px;
+	background-color:yellow;
+
+}
+.bg_grey{
+	background-color:#e2e2e2;
+}
+.mt_80{
+	margin-top:80px;
+}
+.mt_50{
+	margin-top:50px;
+}
+
+
+.bg_gradient_blue{
+	background: #5f2c82;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+	</style>
 	</head>
 	<body class="bg_gradient_blue">
 		<nav class="navbar">
